@@ -1,0 +1,46 @@
+Setting Up and Installing the DHT11 Webserver
+
+Devices Needed:
+ESP32 Board
+DHT11 Sensor
+Connection Wires
+Laptop
+USB Cable
+Power Supply (ex. Power Bank)
+
+Instructions:
+1. Set Up the ESP32 and DHT11 by connecting them through the use of connection wires.
+   Note: The circuit guide will be found on the folder called "Circuit Guide Iot Devices".
+2. After setting up the devices use the USB cable to connect the ESP32 board to the laptop.
+3. Open the Arduino IDE software and paste the provoded codes.
+   Note: The codes is located and can be downloaded to the folder named "ESP32-DHT-Webserver".
+4. Edit the *ssid and *password variables with your corresponding wifi credentials so that the ESP32 board can connect to its network.
+5. Upload the codes in the ESP32 board memory.
+6. Get the IP Address that the serial monitor will provide and paste it on any browser to access the Web Interface.
+   Note: Your device should be connected on the same network as where the ESP32 Board is connected.
+7. After accessing the IP Address you will now be able to see the calculated data by the DHT11 sensor.
+   Note: You can use power bank to maintain the power of the esp32 board.
+
+
+Setting Up and Installing the Servo Motor Webserver
+
+Devices Needed:
+ESP32 Board
+Servo Motor
+Connection Wires
+Laptop
+USB Cable
+Power Supply (ex. Power Bank)
+
+Instructions:
+1. Set Up the ESP32 and servo motor by connecting them through the use of connection wires.
+   Note: The circuit guide will be found on the folder called "Circuit Guide Iot Devices".
+2. After setting up the devices use the USB cable to connect the ESP32 board to the laptop.
+3. Open the Arduino IDE software and paste the provoded codes.
+   Note: The codes is located and can be downloaded to the folder named "ESP32 SERVO".
+4. Edit the *ssid and *password variables with your corresponding wifi credentials so that the ESP32 board can connect to its network.
+5. Upload the codes in the ESP32 board memory.
+6. Get the IP Address that the serial monitor will provide and paste it on any browser to access the Web Interface.
+   Note: Your device should be connected on the same network as where the ESP32 Board is connected.
+7. After accessing the IP Address you will now be able to see the interface and control the servo motor.
+   Note: You can use power bank to maintain the power of the esp32 board.
